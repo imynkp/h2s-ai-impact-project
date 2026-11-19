@@ -1,0 +1,78 @@
+🛠️ LearnMate AI – Technology Stack
+
+1. Overview
+
+LearnMate AI is planned as an AI-powered personalized learning platform using modern web technologies and artificial intelligence.
+
+The technology stack will support an interactive frontend, backend processing, AI-powered assistance, and student progress management.
+
+2. Proposed Technologies
+
+Technology| Purpose
+HTML5| Frontend structure
+CSS3| Styling and responsive design
+JavaScript| Interactive functionality
+Python| Backend development
+Flask| Backend framework
+Gemini API| AI-powered explanations and assistance
+SQLite| Database management
+Git & GitHub| Version control and collaboration
+
+3. Technology Details
+
+Frontend
+
+- HTML5 for page structure.
+- CSS3 for responsive user interface.
+- JavaScript for interactive features.
+
+Backend
+
+- Python for application logic.
+- Flask for handling backend requests and application routes.
+
+Artificial Intelligence
+
+- Gemini API for generating educational explanations.
+- AI-based assistance for personalized learning recommendations.
+- AI-generated practice questions.
+
+Database
+
+- SQLite for storing student information, quiz results, learning activities, and progress.
+
+Version Control
+
+- Git for tracking development changes.
+- GitHub for source code management and project documentation.
+
+4. Proposed System Architecture
+
+The planned application workflow:
+
+1. Student interacts with the frontend.
+2. Frontend sends requests to the backend.
+3. Backend processes student assessment data.
+4. AI services assist with explanations and recommendations.
+5. Database stores relevant learning progress.
+6. Personalized results are displayed to the student.
+
+5. Future Technology Improvements
+
+Depending on project requirements, we may explore:
+
+- Advanced learning analytics.
+- Voice-based interaction.
+- Multilingual AI support.
+- Progressive Web App capabilities.
+- Offline learning support.
+
+6. Development Status
+
+Current Stage: Project documentation and initial planning.
+
+The technologies listed above are proposed choices. Their actual integration and implementation will be completed progressively.
+
+---
+
+LearnMate AI – Learn Smarter, Grow Better.
