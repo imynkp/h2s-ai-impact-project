@@ -1,0 +1,1669 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AKTU B.Tech first-year Engineering Mathematics study material with detailed notes, formulas and solved examples.">
+<title>Engineering Mathematics | LearnMate AI</title>
+
+<style>
+:root {
+  --primary: #2563eb;
+  --dark: #172554;
+  --light: #eff6ff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #dbeafe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+header {
+  background: linear-gradient(135deg, #172554, #2563eb);
+  color: white;
+  padding: 32px 18px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 29px;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #dbeafe;
+}
+
+nav {
+  background: white;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  display: inline-block;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 8px;
+  font-size: 13px;
+}
+
+.container {
+  width: 92%;
+  max-width: 950px;
+  margin: 24px auto;
+}
+
+.intro, .unit, .revision, .practice {
+  background: white;
+  padding: 22px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.04);
+}
+
+h2 {
+  color: var(--dark);
+  margin-bottom: 14px;
+  font-size: 23px;
+}
+
+h3 {
+  color: #1d4ed8;
+  margin: 20px 0 8px;
+  font-size: 18px;
+}
+
+h4 {
+  color: var(--dark);
+  margin: 14px 0 6px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+ul, ol {
+  padding-left: 23px;
+  margin: 8px 0 14px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.formula {
+  background: var(--light);
+  border-left: 4px solid var(--primary);
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  overflow-wrap: anywhere;
+}
+
+.example {
+  background: #f0fdf4;
+  border-left: 4px solid #16a34a;
+  padding: 13px;
+  margin: 12px 0;
+  border-radius: 5px;
+}
+
+.note {
+  background: #fff7ed;
+  border-left: 4px solid #f97316;
+  padding: 13px;
+  margin: 12px 0;
+  border-radius: 5px;
+}
+
+.unit-tag {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+details {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 10px 0;
+  background: white;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 35px;
+}
+
+footer p {
+  color: #dbeafe;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 25px;
+  }
+
+  .container {
+    width: 94%;
+  }
+
+  .intro, .unit, .revision, .practice {
+    padding: 16px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 12px;
+    margin: 4px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Engineering Mathematics</h1>
+  <p>AKTU B.Tech First Year | Complete Study Material</p>
+  <p>LearnMate AI – Learn, Understand and Practice</p>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#unit1">Unit 1</a>
+  <a href="#unit2">Unit 2</a>
+  <a href="#unit3">Unit 3</a>
+  <a href="#unit4">Unit 4</a>
+  <a href="#unit5">Unit 5</a>
+  <a href="#practice">Practice</a>
+</nav>
+
+<main class="container">
+
+<section class="intro" id="overview">
+  <h2>Course Overview</h2>
+  <p>
+    Engineering Mathematics provides the mathematical foundation
+    required to solve engineering and scientific problems. It
+    develops analytical thinking and introduces techniques used
+    in computer science, physics, electrical engineering, data
+    science and other technical fields.
+  </p>
+
+  <h3>Learning Objectives</h3>
+  <ul>
+    <li>Understand functions of several variables and partial derivatives.</li>
+    <li>Apply calculus to solve optimisation problems.</li>
+    <li>Evaluate double and triple integrals.</li>
+    <li>Understand gradient, divergence and curl.</li>
+    <li>Solve systems of linear equations using matrices.</li>
+    <li>Understand vector spaces, subspaces and linear independence.</li>
+  </ul>
+
+  <h3>Units Covered</h3>
+  <ol>
+    <li>Multivariable Calculus and Optimization</li>
+    <li>Multiple Integrals</li>
+    <li>Vector Calculus</li>
+    <li>Matrices and Linear Systems</li>
+    <li>Vector Spaces</li>
+  </ol>
+
+  <div class="note">
+    <strong>Study tip:</strong> Mathematics requires regular practice.
+    Understand each formula, study its conditions, and solve problems
+    step by step instead of memorising final answers.
+  </div>
+</section>
+
+<!-- UNIT 1 -->
+<section class="unit" id="unit1">
+  <span class="unit-tag">UNIT 1</span>
+  <h2>Multivariable Calculus and Optimization</h2>
+
+  <h3>1.1 Functions of Several Variables</h3>
+  <p>
+    A function of several variables is a mathematical function
+    whose output depends on two or more independent variables.
+    For example, z = f(x,y) depends on both x and y.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    If z = x² + y², then the value of z depends on the values
+    assigned to x and y.
+    <br>
+    At x = 2 and y = 3:
+    <br>
+    z = 2² + 3² = 4 + 9 = 13.
+  </div>
+
+  <h3>1.2 Limits and Continuity</h3>
+  <p>
+    The limit of a function describes the value approached by
+    the function as its independent variables approach specified
+    values.
+  </p>
+  <p>
+    A function of two variables is continuous at a point if its
+    limit exists there and equals the actual function value.
+  </p>
+
+  <div class="formula">
+    Continuity at (a,b):<br>
+    lim (x,y)→(a,b) f(x,y) = f(a,b)
+  </div>
+
+  <h3>1.3 Partial Derivatives</h3>
+  <p>
+    A partial derivative measures how a multivariable function
+    changes with respect to one variable while the other variables
+    are kept constant.
+  </p>
+
+  <p>
+    For z = f(x,y), the partial derivative with respect to x is
+    written as ∂z/∂x. The partial derivative with respect to y
+    is written as ∂z/∂y.
+  </p>
+
+  <div class="formula">
+    First-order partial derivatives:<br>
+    ∂z/∂x = fx<br>
+    ∂z/∂y = fy
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Let z = x²y + 3xy².
+    <br><br>
+    Differentiating with respect to x, treating y as constant:
+    <br>
+    ∂z/∂x = 2xy + 3y².
+    <br><br>
+    Differentiating with respect to y, treating x as constant:
+    <br>
+    ∂z/∂y = x² + 6xy.
+  </div>
+
+  <h3>1.4 Higher-Order Partial Derivatives</h3>
+  <p>
+    When a partial derivative is differentiated again, a
+    second-order partial derivative is obtained.
+  </p>
+
+  <div class="formula">
+    Second-order derivatives:<br>
+    ∂²z/∂x², ∂²z/∂y²,<br>
+    ∂²z/∂x∂y, ∂²z/∂y∂x
+  </div>
+
+  <p>
+    For a function with continuous second partial derivatives
+    in a neighbourhood of a point, the mixed partial derivatives
+    are equal:
+  </p>
+
+  <div class="formula">
+    ∂²z/∂x∂y = ∂²z/∂y∂x
+  </div>
+
+  <h3>1.5 Total Derivative and Chain Rule</h3>
+  <p>
+    The total derivative describes the combined change in a
+    function when more than one independent variable changes.
+  </p>
+
+  <p>
+    If z = f(x,y), where x and y depend on t, then:
+  </p>
+
+  <div class="formula">
+    dz/dt = (∂z/∂x)(dx/dt) + (∂z/∂y)(dy/dt)
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    If z = x² + y², x = t and y = 2t, then:
+    <br>
+    dz/dt = 2x(1) + 2y(2).
+    <br>
+    Substituting x = t and y = 2t:
+    <br>
+    dz/dt = 2t + 8t = 10t.
+  </div>
+
+  <h3>1.6 Homogeneous Functions and Euler's Theorem</h3>
+  <p>
+    A function f(x,y) is homogeneous of degree n if:
+  </p>
+
+  <div class="formula">
+    f(tx,ty) = tⁿ f(x,y)
+  </div>
+
+  <p>
+    Euler's theorem states that if z = f(x,y) is a differentiable
+    homogeneous function of degree n, then:
+  </p>
+
+  <div class="formula">
+    x(∂z/∂x) + y(∂z/∂y) = nz
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    z = x² + xy + y² is homogeneous of degree 2.
+    <br>
+    Therefore, according to Euler's theorem:
+    <br>
+    x(∂z/∂x) + y(∂z/∂y) = 2z.
+  </div>
+
+  <h3>1.7 Jacobians</h3>
+  <p>
+    A Jacobian is a determinant formed from the first-order
+    partial derivatives of a set of functions. It is useful
+    in transformations of variables and multiple integration.
+  </p>
+
+  <p>
+    If u = u(x,y) and v = v(x,y), the Jacobian is:
+  </p>
+
+  <div class="formula">
+    ∂(u,v)/∂(x,y) =
+    | ∂u/∂x   ∂u/∂y |<br>
+    | ∂v/∂x   ∂v/∂y |
+  </div>
+
+  <p>
+    Its value is calculated as:
+  </p>
+
+  <div class="formula">
+    J = (∂u/∂x)(∂v/∂y)
+      - (∂u/∂y)(∂v/∂x)
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Let u = x + y and v = x - y.
+    <br>
+    ∂u/∂x = 1, ∂u/∂y = 1.
+    <br>
+    ∂v/∂x = 1, ∂v/∂y = -1.
+    <br>
+    J = (1)(-1) - (1)(1) = -2.
+  </div>
+
+  <h3>1.8 Taylor's Theorem for Two Variables</h3>
+  <p>
+    Taylor's theorem expresses a function near a point in terms
+    of its derivatives at that point. It is useful for
+    approximations and error analysis.
+  </p>
+
+  <p>
+    For a sufficiently differentiable function f(x,y), the
+    expansion around (a,b), up to second-order terms, is:
+  </p>
+
+  <div class="formula">
+    f(a+h,b+k) ≈ f(a,b)
+    + h fx + k fy
+    + (1/2)[h² fxx + 2hk fxy + k² fyy]
+  </div>
+
+  <p>
+    All derivatives on the right-hand side are evaluated at
+    (a,b). Higher-order terms are omitted in this approximation.
+  </p>
+
+  <h3>1.9 Maxima and Minima of Functions of Two Variables</h3>
+  <p>
+    A local maximum is a point where a function has a value
+    greater than or equal to nearby values. A local minimum
+    is a point where its value is less than or equal to
+    nearby values.
+  </p>
+
+  <p>
+    First, find stationary points by solving:
+  </p>
+
+  <div class="formula">
+    fx = 0 and fy = 0
+  </div>
+
+  <p>
+    Then calculate:
+  </p>
+
+  <div class="formula">
+    D = fxx fyy - (fxy)²
+  </div>
+
+  <ul>
+    <li>If D is positive and fxx is positive, there is a local minimum.</li>
+    <li>If D is positive and fxx is negative, there is a local maximum.</li>
+    <li>If D is negative, the point is a saddle point.</li>
+    <li>If D is zero, the test is inconclusive.</li>
+  </ul>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Let f(x,y) = x² + y² - 4x - 6y.
+    <br>
+    fx = 2x - 4 = 0, so x = 2.
+    <br>
+    fy = 2y - 6 = 0, so y = 3.
+    <br>
+    fxx = 2, fyy = 2, fxy = 0.
+    <br>
+    D = (2)(2) - 0 = 4.
+    <br>
+    Since D is positive and fxx is positive,
+    (2,3) is a local minimum.
+    <br>
+    Minimum value = f(2,3) = -13.
+  </div>
+
+  <h3>1.10 Lagrange Multipliers</h3>
+  <p>
+    Lagrange multipliers are used to find maximum or minimum
+    values of a function subject to a constraint.
+  </p>
+
+  <p>
+    To optimise f(x,y) subject to g(x,y) = 0, solve:
+  </p>
+
+  <div class="formula">
+    ∇f = λ∇g
+    <br>
+    g(x,y) = 0
+  </div>
+
+  <p>
+    Here λ is the Lagrange multiplier.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Find the stationary points of f(x,y) = xy subject to
+    x + y = 10.
+    <br><br>
+    Using y = 10 - x:
+    <br>
+    f(x) = x(10 - x) = 10x - x².
+    <br>
+    f'(x) = 10 - 2x = 0.
+    <br>
+    x = 5 and y = 5.
+    <br>
+    The maximum value is 25.
+  </div>
+</section>
+
+<!-- UNIT 2 -->
+<section class="unit" id="unit2">
+  <span class="unit-tag">UNIT 2</span>
+  <h2>Multiple Integrals</h2>
+
+  <h3>2.1 Introduction to Multiple Integrals</h3>
+  <p>
+    Multiple integrals extend ordinary integration to functions
+    of two or more variables. They are used to calculate areas,
+    volumes, mass and other quantities over two-dimensional
+    or three-dimensional regions.
+  </p>
+
+  <h3>2.2 Double Integrals</h3>
+  <p>
+    A double integral is an integral of a function of two
+    variables over a region in the xy-plane.
+  </p>
+
+  <div class="formula">
+    ∬R f(x,y) dA
+  </div>
+
+  <p>
+    In rectangular coordinates, the area element is:
+  </p>
+
+  <div class="formula">
+    dA = dx dy or dy dx
+  </div>
+
+  <p>
+    The order of integration depends on the limits and the
+    shape of the region.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Evaluate:
+    <br>
+    ∫ from 0 to 1 ∫ from 0 to 2 (x + y) dy dx.
+    <br><br>
+    First integrate with respect to y:
+    <br>
+    ∫(x + y)dy = xy + y²/2.
+    <br>
+    Applying y = 0 to 2 gives 2x + 2.
+    <br>
+    Now integrate with respect to x:
+    <br>
+    ∫ from 0 to 1 (2x + 2) dx
+    = [x² + 2x] from 0 to 1
+    = 3.
+  </div>
+
+  <h3>2.3 Changing the Order of Integration</h3>
+  <p>
+    Sometimes a double integral is difficult to evaluate in
+    its original order. Changing the order can make the
+    calculation easier.
+  </p>
+
+  <p>The general steps are:</p>
+  <ol>
+    <li>Identify the region described by the original limits.</li>
+    <li>Sketch the region in the xy-plane.</li>
+    <li>Express the same region using the opposite order.</li>
+    <li>Rewrite the limits and evaluate the integral.</li>
+  </ol>
+
+  <div class="note">
+    <strong>Important:</strong> Do not interchange the limits
+    mechanically. First understand the integration region.
+  </div>
+
+  <h3>2.4 Double Integrals in Polar Coordinates</h3>
+  <p>
+    Polar coordinates are useful when the region is circular
+    or contains circular boundaries.
+  </p>
+
+  <div class="formula">
+    x = r cos θ
+    <br>
+    y = r sin θ
+    <br>
+    x² + y² = r²
+    <br>
+    dA = r dr dθ
+  </div>
+
+  <p>
+    Therefore, a double integral becomes:
+  </p>
+
+  <div class="formula">
+    ∬R f(x,y) dA
+    = ∬R f(r cos θ, r sin θ) r dr dθ
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Find the area of a circle of radius a using polar
+    coordinates.
+    <br><br>
+    Area = ∫ from 0 to 2π ∫ from 0 to a r dr dθ.
+    <br>
+    = ∫ from 0 to 2π [r²/2] from 0 to a dθ.
+    <br>
+    = ∫ from 0 to 2π a²/2 dθ.
+    <br>
+    = πa².
+  </div>
+
+  <h3>2.5 Applications of Double Integrals</h3>
+  <ul>
+    <li>Finding the area of a plane region.</li>
+    <li>Finding the volume under a surface.</li>
+    <li>Calculating mass of a lamina with variable density.</li>
+    <li>Finding the centroid of a plane region.</li>
+  </ul>
+
+  <div class="formula">
+    Area of region R = ∬R 1 dA
+  </div>
+
+  <div class="formula">
+    Volume under z = f(x,y) = ∬R f(x,y) dA
+  </div>
+
+  <h3>2.6 Triple Integrals</h3>
+  <p>
+    A triple integral is used to integrate a function of
+    three variables over a three-dimensional region.
+  </p>
+
+  <div class="formula">
+    ∭V f(x,y,z) dV
+  </div>
+
+  <p>
+    In Cartesian coordinates:
+  </p>
+
+  <div class="formula">
+    dV = dx dy dz
+  </div>
+
+  <p>
+    Triple integrals are useful for calculating the volume
+    and mass of three-dimensional bodies.
+  </p>
+
+  <h3>2.7 Cylindrical Coordinates</h3>
+  <p>
+    Cylindrical coordinates extend polar coordinates by
+    adding a vertical coordinate z. They are useful for
+    cylinders and circular solids.
+  </p>
+
+  <div class="formula">
+    x = r cos θ
+    <br>
+    y = r sin θ
+    <br>
+    z = z
+    <br>
+    dV = r dr dθ dz
+  </div>
+
+  <h3>2.8 Spherical Coordinates</h3>
+  <p>
+    Spherical coordinates are useful for spherical regions.
+    Using ρ as the distance from the origin, θ as the
+    azimuthal angle and φ as the angle measured from the
+    positive z-axis:
+  </p>
+
+  <div class="formula">
+    x = ρ sin φ cos θ
+    <br>
+    y = ρ sin φ sin θ
+    <br>
+    z = ρ cos φ
+    <br>
+    dV = ρ² sin φ dρ dφ dθ
+  </div>
+
+  <h3>2.9 Change of Variables and Jacobian</h3>
+  <p>
+    A change of variables can simplify a multiple integral.
+    When variables are transformed, the area or volume
+    element must also be transformed using the absolute
+    value of the Jacobian determinant.
+  </p>
+
+  <div class="formula">
+    dx dy = |∂(x,y)/∂(u,v)| du dv
+  </div>
+
+  <div class="note">
+    The absolute value of the Jacobian is used in the
+    transformed area or volume element.
+  </div>
+</section>
+
+<!-- UNIT 3 -->
+<section class="unit" id="unit3">
+  <span class="unit-tag">UNIT 3</span>
+  <h2>Vector Calculus</h2>
+
+  <h3>3.1 Introduction to Vectors</h3>
+  <p>
+    A vector is a quantity that has both magnitude and
+    direction. Examples include displacement, velocity,
+    acceleration and force.
+  </p>
+
+  <p>
+    A vector in three-dimensional Cartesian coordinates
+    can be written as:
+  </p>
+
+  <div class="formula">
+    A = A₁i + A₂j + A₃k
+  </div>
+
+  <p>
+    Here i, j and k are unit vectors along the x, y and
+    z axes respectively.
+  </p>
+
+  <h3>3.2 Scalar and Vector Fields</h3>
+  <p>
+    A scalar field assigns a scalar value to every point
+    in a region. Temperature and pressure distributions
+    are examples.
+  </p>
+  <p>
+    A vector field assigns a vector to every point.
+    Fluid velocity and gravitational fields are examples.
+  </p>
+
+  <h3>3.3 Gradient</h3>
+  <p>
+    The gradient of a scalar function is a vector that
+    points in the direction of the maximum rate of
+    increase of the function.
+  </p>
+
+  <p>
+    For a scalar function φ(x,y,z):
+  </p>
+
+  <div class="formula">
+    ∇φ = (∂φ/∂x)i
+       + (∂φ/∂y)j
+       + (∂φ/∂z)k
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Let φ = x² + y² + z².
+    <br>
+    ∂φ/∂x = 2x.
+    <br>
+    ∂φ/∂y = 2y.
+    <br>
+    ∂φ/∂z = 2z.
+    <br>
+    Therefore:
+    <br>
+    ∇φ = 2xi + 2yj + 2zk.
+  </div>
+
+  <h3>3.4 Divergence</h3>
+  <p>
+    Divergence measures the net outward flow of a vector
+    field per unit volume around a point.
+  </p>
+
+  <p>
+    For A = A₁i + A₂j + A₃k:
+  </p>
+
+  <div class="formula">
+    ∇ · A =
+    ∂A₁/∂x + ∂A₂/∂y + ∂A₃/∂z
+  </div>
+
+  <p>
+    Divergence is a scalar quantity.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Let A = x²i + y²j + z²k.
+    <br>
+    ∇ · A = 2x + 2y + 2z.
+  </div>
+
+  <h3>3.5 Curl</h3>
+  <p>
+    Curl measures the local rotational tendency of a
+    vector field. The curl of a vector field is itself
+    a vector.
+  </p>
+
+  <div class="formula">
+    ∇ × A =
+    | i       j       k |
+    | ∂/∂x   ∂/∂y   ∂/∂z |
+    | A₁      A₂      A₃ |
+  </div>
+
+  <p>
+    The determinant is expanded using the usual
+    cofactor method.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    Let A = -y i + x j + 0k.
+    <br>
+    The curl is:
+    <br>
+    ∇ × A = 2k.
+  </div>
+
+  <h3>3.6 Directional Derivative</h3>
+  <p>
+    The directional derivative gives the rate of change
+    of a scalar function in a specified direction.
+  </p>
+
+  <div class="formula">
+    Dᵤφ = ∇φ · u
+  </div>
+
+  <p>
+    Here u is a unit vector in the required direction.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    If ∇φ = 2i + 3j and the direction is
+    u = (3/5)i + (4/5)j, then:
+    <br>
+    Dᵤφ = (2)(3/5) + (3)(4/5)
+    <br>
+    = 6/5 + 12/5 = 18/5.
+  </div>
+
+  <h3>3.7 Line Integral</h3>
+  <p>
+    A line integral evaluates a scalar or vector field
+    along a specified curve.
+  </p>
+
+  <div class="formula">
+    Scalar line integral: ∫C f ds
+    <br>
+    Vector line integral: ∫C A · dr
+  </div>
+
+  <p>
+    Line integrals are used in calculating work done by
+    a force along a path and in studying circulation.
+  </p>
+
+  <h3>3.8 Surface Integral</h3>
+  <p>
+    A surface integral evaluates a field over a surface.
+    The flux of a vector field through a surface is:
+  </p>
+
+  <div class="formula">
+    Flux = ∬S A · n dS
+  </div>
+
+  <p>
+    Here n is the unit normal vector to the surface.
+  </p>
+
+  <h3>3.9 Volume Integral</h3>
+  <p>
+    A volume integral evaluates a function throughout
+    a three-dimensional region.
+  </p>
+
+  <div class="formula">
+    ∭V f(x,y,z) dV
+  </div>
+
+  <h3>3.10 Green's Theorem</h3>
+  <p>
+    Green's theorem relates a line integral around a
+    positively oriented, simple closed curve C to a
+    double integral over the plane region R enclosed
+    by the curve.
+  </p>
+
+  <div class="formula">
+    ∮C (P dx + Q dy)
+    = ∬R (∂Q/∂x - ∂P/∂y) dA
+  </div>
+
+  <h3>3.11 Gauss Divergence Theorem</h3>
+  <p>
+    Gauss divergence theorem relates the outward flux
+    through a closed surface to the volume integral
+    of the divergence inside the surface.
+  </p>
+
+  <div class="formula">
+    ∬S A · n dS = ∭V (∇ · A) dV
+  </div>
+
+  <h3>3.12 Stokes' Theorem</h3>
+  <p>
+    Stokes' theorem relates the circulation of a vector
+    field around a closed boundary curve to the surface
+    integral of its curl.
+  </p>
+
+  <div class="formula">
+    ∮C A · dr = ∬S (∇ × A) · n dS
+  </div>
+
+  <div class="note">
+    <strong>Remember:</strong> Green's theorem connects a
+    plane line integral with a double integral. Gauss'
+    theorem connects closed-surface flux with a volume
+    integral. Stokes' theorem connects circulation with
+    a surface integral of curl.
+  </div>
+</section>
+
+<!-- UNIT 4 -->
+<section class="unit" id="unit4">
+  <span class="unit-tag">UNIT 4</span>
+  <h2>Matrices and Linear Systems</h2>
+
+  <h3>4.1 Introduction to Matrices</h3>
+  <p>
+    A matrix is a rectangular arrangement of numbers or
+    mathematical elements in rows and columns. Matrices
+    are used to represent and solve systems of linear
+    equations.
+  </p>
+
+  <p>
+    A matrix with m rows and n columns is said to have
+    order m × n.
+  </p>
+
+  <div class="formula">
+    A = [aᵢⱼ]ₘₓₙ
+  </div>
+
+  <h3>4.2 Types of Matrices</h3>
+  <ul>
+    <li><strong>Row matrix:</strong> A matrix containing one row.</li>
+    <li><strong>Column matrix:</strong> A matrix containing one column.</li>
+    <li><strong>Square matrix:</strong> A matrix with equal numbers of rows and columns.</li>
+    <li><strong>Zero matrix:</strong> Every element is zero.</li>
+    <li><strong>Diagonal matrix:</strong> All off-diagonal elements are zero.</li>
+    <li><strong>Identity matrix:</strong> A diagonal matrix with all diagonal elements equal to one.</li>
+    <li><strong>Symmetric matrix:</strong> A square matrix satisfying Aᵀ = A.</li>
+    <li><strong>Skew-symmetric matrix:</strong> A square matrix satisfying Aᵀ = -A.</li>
+  </ul>
+
+  <h3>4.3 Matrix Addition and Subtraction</h3>
+  <p>
+    Two matrices can be added or subtracted only when
+    they have the same order. Corresponding elements
+    are added or subtracted.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    <br>
+    A = [1  2] and B = [3  4]
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;[3  4] &nbsp;&nbsp;&nbsp;&nbsp;[1  2]
+    <br><br>
+    A + B = [4  6]
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4  6]
+  </div>
+
+  <h3>4.4 Matrix Multiplication</h3>
+  <p>
+    Matrix multiplication is possible when the number of
+    columns of the first matrix equals the number of rows
+    of the second matrix.
+  </p>
+
+  <div class="formula">
+    If A is m × n and B is n × p,
+    then AB is m × p.
+  </div>
+
+  <p>
+    In general, matrix multiplication is not commutative:
+    AB is not necessarily equal to BA.
+  </p>
+
+  <h3>4.5 Determinants</h3>
+  <p>
+    A determinant is a scalar value associated with a
+    square matrix. It helps determine whether a matrix
+    is invertible.
+  </p>
+
+  <p>
+    For a 2 × 2 matrix:
+  </p>
+
+  <div class="formula">
+    A = | a  b |
+        | c  d |
+    <br>
+    det(A) = ad - bc
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    <br>
+    A = | 2  3 |
+        | 1  4 |
+    <br>
+    det(A) = (2 × 4) - (3 × 1)
+    <br>
+    = 8 - 3 = 5.
+  </div>
+
+  <h3>4.6 Minor and Cofactor</h3>
+  <p>
+    The minor of an element is the determinant obtained
+    after deleting its row and column.
+  </p>
+
+  <p>
+    The cofactor is the minor multiplied by an alternating
+    sign:
+  </p>
+
+  <div class="formula">
+    Cᵢⱼ = (-1)ⁱ⁺ʲ Mᵢⱼ
+  </div>
+
+  <h3>4.7 Adjoint of a Matrix</h3>
+  <p>
+    The adjoint of a square matrix is the transpose of
+    its cofactor matrix.
+  </p>
+
+  <div class="formula">
+    adj(A) = [cofactor matrix]ᵀ
+  </div>
+
+  <h3>4.8 Inverse of a Matrix</h3>
+  <p>
+    The inverse of a square matrix A is a matrix A⁻¹
+    satisfying:
+  </p>
+
+  <div class="formula">
+    AA⁻¹ = A⁻¹A = I
+  </div>
+
+  <p>
+    A square matrix has an inverse if its determinant
+    is non-zero.
+  </p>
+
+  <div class="formula">
+    A⁻¹ = adj(A) / det(A)
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    <br>
+    A = | 2  1 |
+        | 1  1 |
+    <br>
+    det(A) = 2(1) - 1(1) = 1.
+    <br>
+    adj(A) = | 1  -1 |
+             | -1  2 |
+    <br>
+    Therefore:
+    <br>
+    A⁻¹ = | 1  -1 |
+          | -1  2 |
+  </div>
+
+  <h3>4.9 Rank of a Matrix</h3>
+  <p>
+    The rank of a matrix is the maximum number of
+    linearly independent rows or columns. It is also
+    the order of the largest non-zero minor.
+  </p>
+
+  <p>
+    Rank can be determined using elementary row
+    operations to convert a matrix into row-echelon
+    form.
+  </p>
+
+  <h3>4.10 Elementary Row Operations</h3>
+  <ul>
+    <li>Interchange two rows.</li>
+    <li>Multiply a row by a non-zero scalar.</li>
+    <li>Add a multiple of one row to another row.</li>
+  </ul>
+
+  <h3>4.11 System of Linear Equations</h3>
+  <p>
+    A system of linear equations can be represented
+    in matrix form as:
+  </p>
+
+  <div class="formula">
+    AX = B
+  </div>
+
+  <p>
+    Here A is the coefficient matrix, X is the column
+    of unknown variables and B is the constant column.
+  </p>
+
+  <h3>4.12 Consistency of Linear Systems</h3>
+  <p>
+    The Rouché-Capelli theorem states that a system
+    AX = B is consistent if and only if:
+  </p>
+
+  <div class="formula">
+    rank(A) = rank([A|B])
+  </div>
+
+  <ul>
+    <li>If the common rank equals the number of unknowns, the system has a unique solution.</li>
+    <li>If the common rank is less than the number of unknowns, the system has infinitely many solutions.</li>
+    <li>If the ranks are unequal, the system has no solution.</li>
+  </ul>
+
+  <h3>4.13 Eigenvalues and Eigenvectors</h3>
+  <p>
+    An eigenvector of a square matrix A is a non-zero
+    vector X whose direction remains unchanged when
+    multiplied by A, except for a scaling factor.
+  </p>
+
+  <div class="formula">
+    AX = λX
+  </div>
+
+  <p>
+    Here λ is the eigenvalue and X is the corresponding
+    eigenvector.
+  </p>
+
+  <p>
+    Eigenvalues are obtained by solving the characteristic
+    equation:
+  </p>
+
+  <div class="formula">
+    det(A - λI) = 0
+  </div>
+
+  <div class="example">
+    <strong>Example:</strong>
+    <br>
+    A = | 2  0 |
+        | 0  3 |
+    <br>
+    Characteristic equation:
+    <br>
+    (2 - λ)(3 - λ) = 0.
+    <br>
+    Eigenvalues are λ = 2 and λ = 3.
+  </div>
+
+  <h3>4.14 Cayley-Hamilton Theorem</h3>
+  <p>
+    The Cayley-Hamilton theorem states that every square
+    matrix satisfies its own characteristic equation.
+  </p>
+
+  <p>
+    If the characteristic equation of A is:
+  </p>
+
+  <div class="formula">
+    p(λ) = 0
+  </div>
+
+  <p>
+    Then replacing λ by A gives:
+  </p>
+
+  <div class="formula">
+    p(A) = 0
+  </div>
+
+  <p>
+    This theorem can be used to simplify higher powers
+    of a matrix and calculate its inverse when the
+    inverse exists.
+  </p>
+</section>
+
+<!-- UNIT 5 -->
+<section class="unit" id="unit5">
+  <span class="unit-tag">UNIT 5</span>
+  <h2>Vector Spaces</h2>
+
+  <h3>5.1 Introduction to Vector Spaces</h3>
+  <p>
+    A vector space is a non-empty set of objects called
+    vectors, together with vector addition and scalar
+    multiplication, satisfying a set of mathematical
+    properties.
+  </p>
+
+  <p>
+    Examples include R², R³ and the set of all
+    polynomials of degree at most n.
+  </p>
+
+  <h3>5.2 Properties of a Vector Space</h3>
+  <p>
+    For vectors u, v and w and scalars a and b, the
+    following properties hold:
+  </p>
+
+  <ul>
+    <li>Closure under vector addition.</li>
+    <li>Commutativity of vector addition.</li>
+    <li>Associativity of vector addition.</li>
+    <li>Existence of a zero vector.</li>
+    <li>Existence of additive inverses.</li>
+    <li>Closure under scalar multiplication.</li>
+    <li>Distributive laws for scalar multiplication.</li>
+    <li>Compatibility of scalar multiplication.</li>
+    <li>Multiplication by scalar one leaves a vector unchanged.</li>
+  </ul>
+
+  <h3>5.3 Subspaces</h3>
+  <p>
+    A subspace is a non-empty subset of a vector space
+    that is itself a vector space under the same
+    operations.
+  </p>
+
+  <p>
+    A non-empty subset W of V is a subspace if:
+  </p>
+
+  <ol>
+    <li>For u and v in W, u + v also belongs to W.</li>
+    <li>For every scalar c and u in W, cu belongs to W.</li>
+  </ol>
+
+  <div class="example">
+    <strong>Example:</strong>
+    The set of all vectors of the form (x,0) in R²
+    is a subspace of R² because it contains the zero
+    vector and is closed under addition and scalar
+    multiplication.
+  </div>
+
+  <h3>5.4 Linear Combinations</h3>
+  <p>
+    A linear combination of vectors v₁, v₂, ..., vₙ
+    is an expression formed by multiplying each vector
+    by a scalar and adding the results.
+  </p>
+
+  <div class="formula">
+    v = a₁v₁ + a₂v₂ + ... + aₙvₙ
+  </div>
+
+  <h3>5.5 Linear Independence and Dependence</h3>
+  <p>
+    A set of vectors is linearly independent if the
+    only solution of:
+  </p>
+
+  <div class="formula">
+    a₁v₁ + a₂v₂ + ... + aₙvₙ = 0
+  </div>
+
+  <p>
+    is a₁ = a₂ = ... = aₙ = 0.
+  </p>
+
+  <p>
+    If a non-trivial solution exists, the vectors are
+    linearly dependent.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    The vectors (1,0) and (0,1) in R² are linearly
+    independent because neither can be written as a
+    scalar multiple of the other.
+  </div>
+
+  <h3>5.6 Basis and Dimension</h3>
+  <p>
+    A basis of a vector space is a set of vectors that
+    is both linearly independent and spans the entire
+    vector space.
+  </p>
+
+  <p>
+    The number of vectors in a finite basis is called
+    the dimension of the vector space.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    The standard basis of R³ is:
+    <br>
+    {(1,0,0), (0,1,0), (0,0,1)}.
+    <br>
+    Therefore, the dimension of R³ is 3.
+  </div>
+
+  <h3>5.7 Span of Vectors</h3>
+  <p>
+    The span of a set of vectors is the collection of
+    all possible linear combinations of those vectors.
+  </p>
+
+  <div class="formula">
+    Span{v₁, v₂, ..., vₙ}
+    = {a₁v₁ + ... + aₙvₙ}
+  </div>
+
+  <h3>5.8 Linear Transformations</h3>
+  <p>
+    A linear transformation is a function T from one
+    vector space to another that preserves vector
+    addition and scalar multiplication.
+  </p>
+
+  <div class="formula">
+    T(u + v) = T(u) + T(v)
+    <br>
+    T(cu) = cT(u)
+  </div>
+
+  <h3>5.9 Kernel and Image</h3>
+  <p>
+    The kernel of a linear transformation is the set
+    of all vectors mapped to the zero vector.
+  </p>
+
+  <div class="formula">
+    Ker(T) = {v : T(v) = 0}
+  </div>
+
+  <p>
+    The image or range is the set of all possible
+    outputs of the transformation.
+  </p>
+
+  <div class="formula">
+    Im(T) = {T(v) : v belongs to V}
+  </div>
+
+  <h3>5.10 Rank-Nullity Theorem</h3>
+  <p>
+    For a linear transformation T from a finite-dimensional
+    vector space V:
+  </p>
+
+  <div class="formula">
+    dim(V) = rank(T) + nullity(T)
+  </div>
+
+  <p>
+    Here rank is the dimension of the image and nullity
+    is the dimension of the kernel.
+  </p>
+
+  <div class="example">
+    <strong>Example:</strong>
+    If a linear transformation has a domain of dimension
+    5 and its rank is 3, then:
+    <br>
+    5 = 3 + nullity.
+    <br>
+    Nullity = 2.
+  </div>
+</section>
+
+<!-- REVISION -->
+<section class="revision" id="revision">
+  <h2>Quick Revision: Important Formulas</h2>
+
+  <h3>Unit 1 – Multivariable Calculus</h3>
+  <div class="formula">Euler's theorem: x fx + y fy = nz</div>
+  <div class="formula">Total derivative: dz/dt = fx(dx/dt) + fy(dy/dt)</div>
+  <div class="formula">Jacobian: J = ux vy - uy vx</div>
+  <div class="formula">D = fxx fyy - (fxy)²</div>
+  <div class="formula">Lagrange condition: ∇f = λ∇g</div>
+
+  <h3>Unit 2 – Multiple Integrals</h3>
+  <div class="formula">Polar coordinates: x = r cos θ, y = r sin θ</div>
+  <div class="formula">Polar area element: dA = r dr dθ</div>
+  <div class="formula">Cylindrical volume element: dV = r dr dθ dz</div>
+  <div class="formula">Spherical volume element: dV = ρ² sin φ dρ dφ dθ</div>
+
+  <h3>Unit 3 – Vector Calculus</h3>
+  <div class="formula">Gradient: ∇φ</div>
+  <div class="formula">Divergence: ∇ · A</div>
+  <div class="formula">Curl: ∇ × A</div>
+  <div class="formula">Directional derivative: ∇φ · u</div>
+  <div class="formula">Gauss theorem: ∬S A · n dS = ∭V (∇ · A) dV</div>
+  <div class="formula">Stokes theorem: ∮C A · dr = ∬S (∇ × A) · n dS</div>
+
+  <h3>Unit 4 – Matrices</h3>
+  <div class="formula">2 × 2 determinant: ad - bc</div>
+  <div class="formula">Inverse: A⁻¹ = adj(A) / det(A)</div>
+  <div class="formula">Eigenvalue equation: det(A - λI) = 0</div>
+  <div class="formula">Linear system: AX = B</div>
+  <div class="formula">Consistency: rank(A) = rank([A|B])</div>
+
+  <h3>Unit 5 – Vector Spaces</h3>
+  <div class="formula">Linear combination: v = a₁v₁ + ... + aₙvₙ</div>
+  <div class="formula">Rank-nullity: dim(V) = rank(T) + nullity(T)</div>
+
+  <div class="note">
+    This is a quick revision list, not a substitute for
+    derivations and worked problems. Always check the
+    assumptions and conditions before applying a formula.
+  </div>
+</section>
+
+<!-- PRACTICE -->
+<section class="practice" id="practice">
+  <h2>Practice Questions with Answers</h2>
+  <p>
+    Try solving each question yourself before opening
+    its answer.
+  </p>
+
+  <details>
+    <summary>Q1. Find ∂z/∂x if z = x²y + 3xy².</summary>
+    <p>
+      Treat y as constant.
+      <br>
+      ∂z/∂x = 2xy + 3y².
+    </p>
+  </details>
+
+  <details>
+    <summary>Q2. Find ∂z/∂y if z = x²y + 3xy².</summary>
+    <p>
+      Treat x as constant.
+      <br>
+      ∂z/∂y = x² + 6xy.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q3. State Euler's theorem for homogeneous functions.</summary>
+    <p>
+      If z = f(x,y) is homogeneous of degree n, then:
+      <br>
+      x(∂z/∂x) + y(∂z/∂y) = nz.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q4. Find the Jacobian for u = x + y and v = x - y.</summary>
+    <p>
+      J = (1)(-1) - (1)(1) = -2.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q5. Find the stationary point of f = x² + y² - 4x - 6y.</summary>
+    <p>
+      fx = 2x - 4 = 0, so x = 2.
+      <br>
+      fy = 2y - 6 = 0, so y = 3.
+      <br>
+      Stationary point = (2,3).
+      <br>
+      It is a minimum point and the minimum value is -13.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q6. What is the polar coordinate area element?</summary>
+    <p>
+      dA = r dr dθ.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q7. Evaluate ∫ from 0 to 1 ∫ from 0 to 2 (x+y) dy dx.</summary>
+    <p>
+      Integrating first with respect to y gives 2x + 2.
+      <br>
+      Integrating from x = 0 to 1 gives:
+      <br>
+      [x² + 2x] from 0 to 1 = 3.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q8. Define gradient.</summary>
+    <p>
+      Gradient is the vector of first-order partial derivatives
+      of a scalar field. It points in the direction of maximum
+      increase of that field.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q9. What is the difference between divergence and curl?</summary>
+    <p>
+      Divergence is a scalar that measures the local outward
+      flow of a vector field. Curl is a vector that measures
+      its local rotational tendency.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q10. State Gauss divergence theorem.</summary>
+    <p>
+      The outward flux of a vector field through a closed
+      surface equals the volume integral of its divergence
+      over the enclosed volume.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q11. Find the determinant of [[2,3],[1,4]].</summary>
+    <p>
+      det(A) = (2 × 4) - (3 × 1) = 8 - 3 = 5.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q12. Find the eigenvalues of [[2,0],[0,3]].</summary>
+    <p>
+      det(A - λI) = (2 - λ)(3 - λ) = 0.
+      <br>
+      Eigenvalues are 2 and 3.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q13. When does a square matrix have an inverse?</summary>
+    <p>
+      A square matrix has an inverse if and only if
+      its determinant is non-zero.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q14. What is a basis of a vector space?</summary>
+    <p>
+      A basis is a set of vectors that is both linearly
+      independent and spans the entire vector space.
+    </p>
+  </details>
+
+  <details>
+    <summary>Q15. State the rank-nullity theorem.</summary>
+    <p>
+      For a linear transformation from a finite-dimensional
+      vector space V:
+      <br>
+      dim(V) = rank(T) + nullity(T).
+    </p>
+  </details>
+
+</section>
+
+<section class="intro">
+  <h2>How to Prepare for Your Mathematics Examination</h2>
+
+  <ol>
+    <li>Understand the concept before memorising the formula.</li>
+    <li>Maintain a separate notebook for important formulas.</li>
+    <li>Practise at least a few numerical problems every day.</li>
+    <li>Show all calculation steps in your solutions.</li>
+    <li>Revise theorems along with their conditions.</li>
+    <li>Practise problems from all five units.</li>
+    <li>Check your final answers by substituting values whenever possible.</li>
+  </ol>
+
+  <div class="note">
+    <strong>Important:</strong> This is an educational study
+    resource, not an official AKTU question paper or a
+    guarantee of examination coverage. Compare it with your
+    latest official syllabus, prescribed textbook and faculty
+    instructions.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <h3 style="color:white;">LearnMate AI</h3>
+  <p>Learn Smart. Practise Better. Grow Every Day.</p>
+  <p>Engineering Mathematics | B.Tech First Year</p>
+</footer>
+
+</body>
+</html>
