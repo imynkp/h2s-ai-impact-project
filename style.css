@@ -1,1 +1,49 @@
 <link rel="stylesheet" href="style.css">
+
+.material-grid{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:14px;
+ margin:18px 0;
+}
+
+.material-card{
+ background:#f7f5ff;
+ border:1px solid #e5e0ff;
+ padding:19px;
+ border-radius:13px;
+ text-align:center;
+}
+
+.material-card h3{
+ color:#5746ce;
+ margin:0 0 9px;
+}
+
+.material-card p{
+ color:#77718a;
+ font-size:13px;
+ line-height:1.5;
+}
+
+.material-link{
+ display:inline-block;
+ background:#6552dc;
+ color:white;
+ text-decoration:none;
+ padding:11px 16px;
+ border-radius:9px;
+ font-weight:bold;
+ font-size:14px;
+ margin-top:7px;
+}
+
+.material-link:hover{
+ background:#5140c6;
+}
+
+@media(max-width:520px){
+ .material-grid{
+  grid-template-columns:1fr;
+ }
+}
